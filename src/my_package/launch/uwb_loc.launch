@@ -1,9 +1,0 @@
-<launch>
-    <node pkg="my_package" type="main.py" name="my_package" output="screen">
-
-        <param name="serial_port_name"      value="/dev/ttyACM0" /> <!-- Name of serial port -->
-        <param name="serial_baud_rate"      value="115200" />  <!--Baudrate of serial port-->
-
-    </node>
-
-</launch>
